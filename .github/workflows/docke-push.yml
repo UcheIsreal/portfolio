@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags:  uchninojakes/portfolio-uche
+          tags:  uchninojakes/portfolio-uche:0.1
