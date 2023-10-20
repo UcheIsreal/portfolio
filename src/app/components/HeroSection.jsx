@@ -10,11 +10,9 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left ">
           <h1 className="text-white mb-4 text-4xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-slate-400 to-pink-600">
-              Hello, I'm Uche
+              Hello, I&apos;m Uche
             </span>{" "}
-
             <div className="flex items-center">
-
               <div className="sm:text-xs text-[8px] mx-auto sm:mx-0 flex items-center justify-center mt-2">
                 <TypeAnimation
                   sequence={[
@@ -29,7 +27,6 @@ const HeroSection = () => {
                   repeat={Infinity}
                 />
               </div>
-            
             </div>
           </h1>
           <p className="text-[#adb7be] text-base lg:text-xl  mb-6 sm:text-lg">
@@ -53,6 +50,7 @@ const HeroSection = () => {
               src="/images/portfolio-image2.png"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/3 left-1/2 "
               width={300}
+              alt="Portfolio image"
               height={300}
             />
           </div>
