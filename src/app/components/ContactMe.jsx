@@ -3,7 +3,10 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const ContactMe = () => {
   return (
-    <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 place-items-center ">
+    <section
+      id="contact"
+      className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 place-items-center "
+    >
       <div className=" ">
         <h5 className="text-2xl font-bold text-white m-2 ml-0 text-center sm:text-left">
           Let&apos;s Connect

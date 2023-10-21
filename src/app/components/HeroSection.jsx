@@ -18,7 +18,7 @@ const HeroSection = () => {
                   sequence={[
                     "I'm a Front-End Web Developer",
                     1000,
-                    "I'm also a Digital Marketer",
+                    "I'm an aspiring FullStack software developer",
                     1000,
                   ]}
                   wrapper="span"
@@ -29,13 +29,15 @@ const HeroSection = () => {
               </div>
             </div>
           </h1>
-          <p className="text-[#adb7be] text-base lg:text-xl  mb-6 sm:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            voluptatum ab eos temporibus numquam fuga sunt expedita at odio ea.
+          <p className="text-[#adb7be] text-base lg:text-xl  mb-6 sm:text-lg ">
+            My goal is to become one of the best developers in the world for
+            real with skills in both frontend and backend development.
           </p>
           <div className="flex flex-col sm:flex-row">
-            <button className="px-6 py-3 w-full rounded-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500   hover:bg-slate-200 text-white">
-              Hire Me
+            <button className="  px-6 py-3 w-full rounded-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500   hover:bg-slate-200 text-white">
+              <a href="https://wa.me/+2348164277071" target="blank">
+                Hire Me
+              </a>
             </button>
             <button className="px-1 py-1 w-full rounded-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-600 hover:bg-slate-800 text-white  mt-3 sm:mt-0">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

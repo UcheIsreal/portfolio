@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 mx-8 ">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-4 ">
         <Link
-          href={"/"}
+          href="/"
           className="sm:text-3xl text-sm font-extrabold text-purple-500 "
         >
           UCHNINO JAKES

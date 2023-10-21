@@ -10,8 +10,8 @@ const projectsData = [
     description: "Dashboard built with NextJS/TailwindCSS",
     image: "/images/projects/DashboardDemo.PNG",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/UcheIsreal/NextDashboard",
+    previewUrl: "https://next-dashboard-xi-liart.vercel.app/",
   },
   {
     id: 2,
@@ -20,24 +20,24 @@ const projectsData = [
     image: "/images/projects/bostonrealtyinstitute.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://www.bostonrealtyinstitute.com/",
   },
   {
     id: 3,
     title: "Homesmart Website Clone",
     description: "Web clone built with TailwindCSS",
     image: "/images/projects/homesmartfullpage.png",
-    tag: ["All", "Clones",],
-    gitUrl: "/",
+    tag: ["All", "Clones"],
+    gitUrl: "https://github.com/UcheIsreal/HomesmartTailwind",
     previewUrl: "/",
   },
   {
     id: 4,
     title: "Weather App",
-    description: "Weather App Built with Javascript and Axios API",
+    description: "Weather App Built with Javascript and Axios",
     image: "/images/projects/weatherapp.PNG",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/UcheIsreal/weatherApp",
     previewUrl: "/",
   },
   {
@@ -46,7 +46,7 @@ const projectsData = [
     description: "Group website project built with TailwindCSS",
     image: "/images/projects/incept.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/UcheIsreal/InceptProject",
     previewUrl: "/",
   },
 ];
@@ -64,7 +64,10 @@ const ProjectsSection = () => {
 
   return (
     <>
-      <h2 className="text-white text-center text-4xl font-bold mt-4 mb-8 ">
+      <h2
+        id="projects"
+        className="text-white text-center text-4xl font-bold mt-4 mb-8 "
+      >
         My Projects
       </h2>
       <div className="text-white flex flex-row items-center justify-center gap-2 py-6 ">
@@ -88,7 +91,7 @@ const ProjectsSection = () => {
       </div>
       <div className=" grid md:grid-cols-3 gap-8 md:gap-12 ">
         {filteredProjects.map((project) => (
-          <ProjectCard 
+          <ProjectCard
             key={project.id}
             title={project.title}
             description={project.description}

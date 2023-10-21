@@ -57,17 +57,20 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white ">
+    <section id="about" className="text-white ">
       <div className="md:grid md:grid-cols-2 gap-8  items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-0\ ">
         <Image src="/images/purple-laptop.jpg" width={700} height={700} />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        <div className=" mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="mb-4 mt-4 sm:mt-0 text-4xl font-bold text-white">
             About Me
           </h2>
           <p className="text-base md:text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi iure
-            non possimus assumenda nihil eveniet aspernatur quia vel iusto
-            similique! 
+            I am passionate about creating functional, user-friendly and
+            visually appealing websites. I am constantly learning and improving
+            my skills to stay up to date with the latest industry trends. In
+            addition to frontend development, I am also interested in backend
+            technologies like Node.js and databases like MongoDB. I enjoy
+            working collaboratively with a team to bring ideas to life.
           </p>
           <div className="flex flex-row justify-start mt-8 ">
             <TabButton
@@ -90,7 +93,7 @@ const AboutSection = () => {
             </TabButton>
           </div>
           <div className="mt-8">
-            {TAB_DATA.find((t) => t.id ===tab).content}
+            {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
       </div>
